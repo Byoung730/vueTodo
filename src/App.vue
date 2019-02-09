@@ -2,37 +2,28 @@
   <v-app>
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
+        <span>Todo App</span>
+        <span class="font-weight-light">-- Vue 3.0</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">Latest Release</span>
+      <v-btn flat href="https://github.com/byoung730" target="_blank">
+        <span class="mr-2">My Github</span>
       </v-btn>
     </v-toolbar>
 
     <v-content>
-      <HelloWorld />
+      <HelloWorld/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import Todo from "./components/Todo";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
-  },
-  data() {
-    return {
-      //
-    };
+    Todo
   }
 };
 </script>
